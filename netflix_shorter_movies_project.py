@@ -8,6 +8,7 @@ print(df.head())
 
 # Check the length of the dataset
 print(len(df))
+print(df.shape)
 
 # Filter only on Movies and keeping the relevant columns
 netflix_subset = df.loc[df['type'] == 'Movie']
